@@ -6,6 +6,7 @@ Avert your eyes! This is a toy repo to play around with some new (new to me at l
 * THEME-2: Extremely low effort dev setup
 * THEME-3: Functional patterns (mostly for state management)
 * THEME-4: Comprehensive test coverage
+* THEME-5: Able to leverage community work
 
 *Some compromises were made to reach these ends: only modern browsers are supported. However, there will be a bias towards picking libraries that support polyfills to add support for older browser targets.*
 
@@ -22,3 +23,4 @@ Review the package.json for more info, but some of the primary dependencies are:
 * [ ] Bundle size calculator/breakdown tool (THEME-1).
 * [ ] Explore [Rambda](https://github.com/selfrefactor/rambda) which is [11.6 kB minified](https://bundlephobia.com/result?p=rambda) compared to [77 kB for Ramda](https://bundlephobia.com/result?p=ramda) (THEME-1).
 * [ ] Explore Webpack 4, which is now aiming for zero config, allowing it to fit THEME-2.
+* [ ] Add [Ace Editor](https://ace.c9.io/) or [CodeMirror](https://codemirror.net/) to test integrating larger non-framework libraries (THEME-5)
